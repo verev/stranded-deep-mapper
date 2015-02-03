@@ -1,2 +1,2 @@
 # stranded-deep-mapper
-Stranded Deep insland mapping helper
+Stranded Deep island mapping helper

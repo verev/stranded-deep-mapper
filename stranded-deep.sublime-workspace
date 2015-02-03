@@ -1,0 +1,342 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"top",
+				"padding-top"
+			],
+			[
+				"block",
+				"inline-block"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"wid",
+				"min-width"
+			],
+			[
+				"dir",
+				"dirty_name"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "html/index.html",
+			"settings":
+			{
+				"buffer_size": 1058,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "html/main.css",
+			"settings":
+			{
+				"buffer_size": 878,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "build.bat",
+			"settings":
+			{
+				"buffer_size": 164,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": ".gitignore",
+			"settings":
+			{
+				"buffer_size": 7,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "cat minify",
+	"command_palette":
+	{
+		"height": 104.0,
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/IMPORTANT/JS/stranded-deep-mapper/README.md",
+		"/D/IMPORTANT/JS/stranded-deep-mapper/build.bat",
+		"/D/IMPORTANT/JS/stranded-deep-mapper/html/main.css",
+		"/D/IMPORTANT/JS/stranded-deep-mapper/html/style.css",
+		"/D/IMPORTANT/JS/stranded-deep-mapper/code.min.js",
+		"/D/IMPORTANT/JS/stranded-deep-mapper/tmp/code.cat.js",
+		"/D/IMPORTANT/JS/stranded-deep-mapper/stranded-deep.sublime-project",
+		"/D/IMPORTANT/JS/stranded-deep-mapper/html/index.html",
+		"/D/IMPORTANT/JS/uglify.js",
+		"/D/IMPORTANT/JS/test.js",
+		"/C/Users/Alex/AppData/Roaming/Sublime Text 2/Packages/Levels/Levels.sublime-settings",
+		"/C/Users/Alex/AppData/Roaming/Sublime Text 2/Packages/sublime-levels-master/examples/levels10.js",
+		"/C/Users/Alex/AppData/Roaming/Sublime Text 2/Packages/sublime-levels-master/Levels-light.hidden-tmTheme",
+		"/C/Users/Alex/AppData/Roaming/Sublime Text 2/Packages/sublime-levels-master/levels/js.py",
+		"/C/Users/Alex/AppData/Roaming/Sublime Text 2/Packages/sublime-levels-master/Default (Windows).sublime-keymap",
+		"/C/Users/Alex/AppData/Roaming/Sublime Text 2/Packages/sublime-levels-master/levels/__init__.py",
+		"/C/Users/Alex/AppData/Roaming/Sublime Text 2/Packages/sublime-levels-master/Default.sublime-commands",
+		"/C/Users/Alex/AppData/Roaming/Sublime Text 2/Packages/Levels/Default (Windows).sublime-keymap",
+		"/C/Users/Alex/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Alex/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Alex/AppData/Roaming/Sublime Text 2/Packages/User/Distraction Free.sublime-settings",
+		"/D/Projects/JS/music/server/conf.json",
+		"/D/Projects/JS/music/server/playlist.js",
+		"/D/Projects/JS/music/server/package.json",
+		"/D/Projects/JS/music/server/server.js",
+		"/U/col.html",
+		"/D/Projects/JS/music/music.sublime-project",
+		"/D/Projects/JS/music/server/app.js",
+		"/D/Projects/JS/music/server/node_modules/express/package.json"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"<a>",
+			"<li><a>",
+			"5px",
+			"2px",
+			"{\n",
+			"id",
+			"return",
+			"a",
+			"function",
+			" getPlaylist",
+			"getPlaylist",
+			"q",
+			"send",
+			"getPlaylistName",
+			"Name",
+			"0"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "html/index.html",
+					"settings":
+					{
+						"buffer_size": 1058,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								313,
+								314
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "html/main.css",
+					"settings":
+					{
+						"buffer_size": 878,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								875,
+								875
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 180.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "build.bat",
+					"settings":
+					{
+						"buffer_size": 164,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								164,
+								164
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Batch File/Batch File.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": ".gitignore",
+					"settings":
+					{
+						"buffer_size": 7,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7,
+								7
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}

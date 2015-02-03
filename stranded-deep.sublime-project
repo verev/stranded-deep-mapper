@@ -1,0 +1,22 @@
+{
+	"folders":
+	[
+		{
+			"path": "/D/IMPORTANT/JS/stranded-deep-mapper/code"
+		},
+        {
+          "path": "/D/IMPORTANT/JS/stranded-deep-mapper/html"
+        }
+	],
+
+  "build_systems":
+    [
+        {
+            "name": "cat minify",
+            "cmd": ["${project_path}/build.bat"],
+            "working_dir": "${project_path:${folder}}"
+        }
+    ]
+
+
+}
