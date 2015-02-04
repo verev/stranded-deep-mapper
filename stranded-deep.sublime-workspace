@@ -28,10 +28,10 @@
 	"buffers":
 	[
 		{
-			"file": "html/index.html",
+			"file": "code/util-canvas.js",
 			"settings":
 			{
-				"buffer_size": 1058,
+				"buffer_size": 1825,
 				"line_ending": "Windows"
 			}
 		},
@@ -39,28 +39,20 @@
 			"file": "html/main.css",
 			"settings":
 			{
-				"buffer_size": 878,
+				"buffer_size": 936,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "build.bat",
+			"file": "html/index.html",
 			"settings":
 			{
-				"buffer_size": 164,
+				"buffer_size": 1086,
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": ".gitignore",
-			"settings":
-			{
-				"buffer_size": 7,
-				"line_ending": "Unix"
 			}
 		}
 	],
-	"build_system": "cat minify",
+	"build_system": "cat only",
 	"command_palette":
 	{
 		"height": 104.0,
@@ -84,14 +76,16 @@
 	},
 	"file_history":
 	[
-		"/D/IMPORTANT/JS/stranded-deep-mapper/README.md",
+		"/D/IMPORTANT/JS/stranded-deep-mapper/stranded-deep.sublime-project",
+		"/D/IMPORTANT/JS/stranded-deep-mapper/LICENSE",
 		"/D/IMPORTANT/JS/stranded-deep-mapper/build.bat",
 		"/D/IMPORTANT/JS/stranded-deep-mapper/html/main.css",
+		"/D/IMPORTANT/JS/stranded-deep-mapper/html/index.html",
+		"/D/IMPORTANT/JS/stranded-deep-mapper/.gitignore",
+		"/D/IMPORTANT/JS/stranded-deep-mapper/README.md",
 		"/D/IMPORTANT/JS/stranded-deep-mapper/html/style.css",
 		"/D/IMPORTANT/JS/stranded-deep-mapper/code.min.js",
 		"/D/IMPORTANT/JS/stranded-deep-mapper/tmp/code.cat.js",
-		"/D/IMPORTANT/JS/stranded-deep-mapper/stranded-deep.sublime-project",
-		"/D/IMPORTANT/JS/stranded-deep-mapper/html/index.html",
 		"/D/IMPORTANT/JS/uglify.js",
 		"/D/IMPORTANT/JS/test.js",
 		"/C/Users/Alex/AppData/Roaming/Sublime Text 2/Packages/Levels/Levels.sublime-settings",
@@ -130,6 +124,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"    ",
 			"<a>",
 			"<li><a>",
 			"5px",
@@ -163,33 +158,32 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "html/index.html",
+					"file": "code/util-canvas.js",
 					"settings":
 					{
-						"buffer_size": 1058,
+						"buffer_size": 1825,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								313,
-								314
+								1804,
+								1804
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 225.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -199,15 +193,15 @@
 					"file": "html/main.css",
 					"settings":
 					{
-						"buffer_size": 878,
+						"buffer_size": 936,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								875,
-								875
+								207,
+								207
 							]
 						],
 						"settings":
@@ -217,56 +211,32 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 180.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "build.bat",
-					"settings":
-					{
-						"buffer_size": 164,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								164,
-								164
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Batch File/Batch File.tmLanguage"
-						},
-						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": ".gitignore",
+					"buffer": 2,
+					"file": "html/index.html",
 					"settings":
 					{
-						"buffer_size": 7,
+						"buffer_size": 1086,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7,
-								7
+								951,
+								951
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,

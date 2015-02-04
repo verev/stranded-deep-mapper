@@ -8,8 +8,16 @@
   margin-bottom: 8em;
 }
 
+.canvas-container {
+  display: inline-block;
+  padding: 10px;
+}
+
 canvas {
+  display: block;
   border: 3px solid #BFBFFF;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
@@ -46,11 +54,6 @@ li.inactive {
   color: #777777;
   border-bottom-color: #DBDBFF;
   border-left-color: #DBDBFF;
-}
-
-div.canvas-container {
-  display: inline-block;
-  padding: 10px;
 }
 
 body {
