@@ -17,9 +17,9 @@
  * limitations under the License.
  */
 
-var ve = ve || {};
-ve.util_canvas = (function() {
-  var canvas = document.getElementById("screen");
+var canvas = document.getElementById("screen");
+
+var util_canvas = (function() {
   var context = canvas.getContext("2d");
   
 
@@ -28,6 +28,7 @@ ve.util_canvas = (function() {
     var h_pad = 10;
     var aspect = 4/3;
     var controls = document.getElementById("control");
+
     return function() {
       var usable_w = window.innerWidth - controls.offsetWidth - w_pad;
       var usable_h = window.innerHeight - controls.offsetHeight - h_pad;
@@ -43,20 +44,30 @@ ve.util_canvas = (function() {
     }
   }
 
-  var relativeDraw = function(img, sx, sy, sw, sh, x, y, w, h) {
-    var xscale = canvas.width;
-    var yscale = canvas.height;
-    var rx = x * xscale;
-    var ry = y * yscale;
-    var rw = w * xscale;
-    var rh = h * yscale;
+  var _relativeDraw = function(img, x, y, w, h) {
+    var scale = canvas.width;
+    var rx = x * scale;
+    var ry = y * scale;
+    var rw = w * scale;
+    var rh = h * scale;
 
-    return context.drawImage(img, sx,sy,sw,sh,rx,ry,rw,rh);
+    return context.drawImage(img,rx-rw/2,ry-rh/2,rw,rh);
   }
 
-  var fit_canvas_func = _fit_canvas();
-  window.addEventListener('resize', fit_canvas_func);
-  fit_canvas_func();
+  var _init = function(){
+    var fit_canvas_func = _fit_canvas();
+    window.addEventListener('resize', fit_canvas_func);
+    fit_canvas_func();
+  }
 
-  return {};
+  var _clear = function(color){
+    context.fillStyle = color;
+    context.fillRect(0,0,canvas.width,canvas.height);
+  }
+
+  return {
+     relativeDraw:_relativeDraw
+    ,init:_init
+    ,clear:_clear
+  };
 })();

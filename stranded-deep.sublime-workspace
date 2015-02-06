@@ -28,26 +28,42 @@
 	"buffers":
 	[
 		{
+			"file": "code/controller.js",
+			"settings":
+			{
+				"buffer_size": 2523,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "code/island-graph.js",
+			"settings":
+			{
+				"buffer_size": 1070,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "code/renderer.js",
+			"settings":
+			{
+				"buffer_size": 2333,
+				"line_ending": "Windows"
+			}
+		},
+		{
 			"file": "code/util-canvas.js",
 			"settings":
 			{
-				"buffer_size": 1825,
+				"buffer_size": 1979,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "html/main.css",
+			"file": "code/settings.js",
 			"settings":
 			{
-				"buffer_size": 936,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "html/index.html",
-			"settings":
-			{
-				"buffer_size": 1086,
+				"buffer_size": 233,
 				"line_ending": "Windows"
 			}
 		}
@@ -76,11 +92,13 @@
 	},
 	"file_history":
 	[
+		"/D/IMPORTANT/JS/stranded-deep-mapper/build.bat",
+		"/D/IMPORTANT/JS/stranded-deep-mapper/debug_build.bat",
+		"/D/IMPORTANT/JS/stranded-deep-mapper/html/index.html",
+		"/D/IMPORTANT/JS/stranded-deep-mapper/html/main.css",
+		"/D/IMPORTANT/JS/stranded-deep-mapper/code/util-canvas.js",
 		"/D/IMPORTANT/JS/stranded-deep-mapper/stranded-deep.sublime-project",
 		"/D/IMPORTANT/JS/stranded-deep-mapper/LICENSE",
-		"/D/IMPORTANT/JS/stranded-deep-mapper/build.bat",
-		"/D/IMPORTANT/JS/stranded-deep-mapper/html/main.css",
-		"/D/IMPORTANT/JS/stranded-deep-mapper/html/index.html",
 		"/D/IMPORTANT/JS/stranded-deep-mapper/.gitignore",
 		"/D/IMPORTANT/JS/stranded-deep-mapper/README.md",
 		"/D/IMPORTANT/JS/stranded-deep-mapper/html/style.css",
@@ -124,6 +142,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"x",
+			"var",
+			"x",
 			"    ",
 			"<a>",
 			"<li><a>",
@@ -163,18 +184,18 @@
 			[
 				{
 					"buffer": 0,
-					"file": "code/util-canvas.js",
+					"file": "code/controller.js",
 					"settings":
 					{
-						"buffer_size": 1825,
+						"buffer_size": 2523,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1804,
-								1804
+								2263,
+								2263
 							]
 						],
 						"settings":
@@ -183,60 +204,113 @@
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 225.0,
+						"translation.y": 781.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "html/main.css",
+					"file": "code/island-graph.js",
 					"settings":
 					{
-						"buffer_size": 936,
+						"buffer_size": 1070,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								207,
-								207
+								686,
+								686
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 90.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "html/index.html",
+					"file": "code/renderer.js",
 					"settings":
 					{
-						"buffer_size": 1086,
+						"buffer_size": 2333,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								951,
-								951
+								1956,
+								1956
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 630.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "code/util-canvas.js",
+					"settings":
+					{
+						"buffer_size": 1979,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1457,
+								1457
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 360.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "code/settings.js",
+					"settings":
+					{
+						"buffer_size": 233,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								165,
+								165
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,

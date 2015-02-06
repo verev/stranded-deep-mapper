@@ -16,3 +16,26 @@
  * limitations under the License.
  */
  
+ var graph = (function(){
+
+  var structure = [
+    {icon:'images/ico-tree.svg', x:0, y:0}
+  ];
+
+  var _allInside = function(x, y, w, h, callback){
+    for(var i=0;i<structure.length;i++){
+      var o = structure[i];
+      if(o.x >= x && o.x <= x+w && o.y >= y && o.y <= y+h){
+        callback(o);
+      }
+    }
+  }
+
+  var _init = function(){
+
+  }
+  return {
+    init:_init
+    ,allInside:_allInside
+  };
+})();
